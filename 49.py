@@ -107,12 +107,12 @@ for chank in result45[1]:
             temp_bunsetu.els+=m.surface  
     s+=[temp_bunsetu]
 
-def f_48(s,a,index):
+def f_48(s,a,index,n):
     print(s[index],end="")
     if a[index]>0:
         print(" -> ",end="")
         f_48(s,a,a[index])
     else:
         print("")
-for ss in s:
-    print(ss.noun)
+
+
